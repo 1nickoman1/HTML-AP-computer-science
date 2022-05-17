@@ -1,0 +1,70 @@
+.parent{
+    background: brown;
+    width: 110vw;
+    height: 30vh;
+    position: relative;
+}
+
+#childone{
+    background-color: yellow;
+    height: 22vh;
+    width: 32vw;
+    position: absolute;
+    text-align: left;
+    padding: 20px
+}
+
+#childtwo{
+    background-color: blue;
+    height: 22vh;
+    width: 32vw;
+    position: absolute;
+    text-align: center;
+    left: 36vw;
+    padding: 20px
+}
+
+#childthree{
+    background-color: green;
+    height: 22vh;
+    width: 32vw;
+    position: absolute;
+    text-align: right;
+    left: 72vw;
+    padding: 20px
+}
+
+.boxmodel{
+    background-color: beige;
+    height: 22vh;
+    width: 32vw;
+    margin: auto;
+    padding: 25px;
+    border: 10px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    
+}
+#bruh{
+    text-decoration: line-through;
+    color: red;
+}
+
+.floating{
+    background-color: brown;
+    width: 100vw;
+    height: 30vh;
+    position: relative;
+    
+}
+
+.float1, .float2, .float3{
+    background-color: green;
+    height: 20vh;
+    width: 28vw;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid black;
+    float: left
+}
