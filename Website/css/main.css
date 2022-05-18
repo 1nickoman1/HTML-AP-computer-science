@@ -11,6 +11,26 @@
     border-radius: 8px;
 }
 
+.circle{
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#b0e633);
+    border-radius: 50%;
+    position: absolute;
+    animation: move up 2s ease-in  infinite alternate-reverse;
+
+}
+
+.circle:nth-child(1) {
+    top:-25px;
+    left: -25px;
+}
+
+.circle:nth-child(2){
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down;
+}
 
 #banner{
     color: white;
@@ -34,4 +54,16 @@
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+@keyframes move-up{
+    to{
+        transform: translate(-10px);
+    }
+}
+
+@keyframes move-down{
+    to{
+        transform: translate(10px);
+    }
 }
